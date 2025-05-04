@@ -3,9 +3,9 @@ const userId = urlParams.get('userId');
 const orderForm = document.getElementById('order-form');
 
 // URL Apps Script ที่จะโหลดรายการผัก
-const productsURL = 'https://script.google.com/macros/s/XXXXXXX/exec?action=getProducts';
+const productsURL = 'https://script.google.com/macros/s/AKfycbw1WsO26arIRv7RQ_qYRAOXr1r6B3HaXs4WWddFzG8RaTUwdJ7FSovgseEBu6vFddVhpA/exec?action=getProducts';
 // URL Apps Script ที่จะรับออเดอร์
-const submitURL = 'https://script.google.com/macros/s/XXXXXXX/exec';
+const submitURL = 'https://script.google.com/macros/s/AKfycbw1WsO26arIRv7RQ_qYRAOXr1r6B3HaXs4WWddFzG8RaTUwdJ7FSovgseEBu6vFddVhpA/exec';
 
 fetch(productsURL)
   .then(res => res.json())
